@@ -95,32 +95,55 @@
       </section>
 
       <!-- Add padding to the top and bottom of the section -->
-      <section id="cards">
+      <section id="cards" class="py-5">
         <!-- Use a container class that will set a max-width at each breakpoint -->
-        <div>
+        <div class="container">
           <!-- Adjust all h2 headings to have a margin bottom using the value 4 -->
-          <h2>Section heading</h2>
+          <h2 class="mb-4">Section heading</h2>
 
           <!-- Using the grid system, adjust the following so that the cards are 100% until the small breakpoint where it then divides to use 6 columns each, then again at the large breakpoint each card will span 3 columns each -->
           <!-- Add a gutter y using the value 4 -->
-          <div>
-            <div>
+          <div class="row">
+            <div class="col-12 col-sm-6 col-lg-3 gy-4">
               <!-- Use the card component and set to use the dark bg with light text -->
               <!-- Update snippet to include the image being used in the screenshot -->
               <!-- Update button to use light button theme -->
-
+              <div class="card bg-dark text-light">
+                <img class="card-img-top" src="abstract.jpg" alt="">
+                <h5 class="card-title mx-3 mt-3">Card title</h5>
+                <p class="card-text mx-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-light btn-sm col-3 col-md-5 ms-3 mb-3">Read more</a>
+              </div>
             </div>
 
-            <div>
+            <div class="col-12 col-sm-6 col-lg-3 gy-4">
               <!-- Card goes here -->
+              <div class="card bg-dark text-light">
+                <img class="card-img-top" src="abstract.jpg" alt="">
+                <h5 class="card-title mx-3 mt-3">Card title</h5>
+                <p class="card-text mx-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-light btn-sm col-3 col-md-5 ms-3 mb-3">Read more</a>
+              </div>
             </div>
 
-            <div>
+            <div class="col-12 col-sm-6 col-lg-3 gy-4">
               <!-- Card goes here -->
+              <div class="card bg-dark text-light">
+                <img class="card-img-top" src="abstract.jpg" alt="">
+                <h5 class="card-title mx-3 mt-3">Card title</h5>
+                <p class="card-text mx-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-light btn-sm col-3 col-md-5 ms-3 mb-3">Read more</a>
+              </div>
             </div>
 
-            <div>
+            <div class="col-12 col-sm-6 col-lg-3 gy-4">
               <!-- Card goes here -->
+              <div class="card bg-dark text-light">
+                <img class="card-img-top" src="abstract.jpg" alt="">
+                <h5 class="card-title mx-3 mt-3">Card title</h5>
+                <p class="card-text mx-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-light btn-sm col-3 col-md-5 ms-3 mb-3">Read more</a>
+              </div>
             </div>
           </div>
         </div>
